@@ -1,0 +1,43 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "license": "MIT",
+  "keywords": [
+    "expo",
+    "reasonml",
+    "rescript",
+    "react",
+    "react-native"
+  ],
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "re:build": "bsb -clean-world -make-world",
+    "re:watch": "bsb -clean-world -make-world -w",
+    "re:clean": "bsb -clean-world"
+  },
+  "dependencies": {
+    "@reason-react-native/async-storage": "^1.6.0",
+    "expo": "~39.0.2",
+    "expo-status-bar": "~1.0.2",
+    "nanoid": "^3.1.12",
+    "re-classnames": "^5.0.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.2.tar.gz",
+    "react-native-web": "~0.13.12",
+    "reason-expo": "https://gitpkg.now.sh/mlventures/reason-expo/packages/reason-expo?b4833d3",
+    "reason-promise": "^1.1.1",
+    "reason-react": "0.9.1",
+    "reason-react-native": "0.62.3",
+    "tailwind-rn": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.11.6",
+    "bs-platform": "8.3.0",
+    "re-tailwind-rn": "^0.1.1"
+  },
+  "private": true
+}
